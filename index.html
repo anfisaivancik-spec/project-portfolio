@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Партия «Чикен Ган» — честные выборы, открытый контроль</title>
+    <!-- Подключаем шрифт Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="#" class="logo">Чикен Ган</a>
+        <nav class="main-nav">
+          <a href="#about" data-nav>О партии</a>
+          <a href="#program" data-nav>Программа</a>
+          <a href="#values" data-nav>Наши ценности</a>
+          <a href="#join" data-nav>Вступить</a>
+          <a href="#contacts" data-nav>Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <h1>Мы делаем выборы понятными<br>и прозрачными для каждого</h1>
+          <p>Партия «Чикен Ган»: контроль, участие, ответственность. Никаких закрытых кабинетов — только открытые решения и проверяемые результаты.</p>
+          <button id="cta-btn" class="btn-primary">Узнать больше</button>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>О партии «Чикен Ган»</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>Мы не обещаем «всё исправить за неделю». Мы предлагаем системный подход: прозрачность процессов, понятные инструменты для граждан и реальный контроль за решениями. Наша цель — чтобы каждый житель Хабаровского края мог влиять на то, что происходит в его городе и районе.</p>
+              <p>Наша сила — в людях: в наблюдателей, волонтёрах, экспертах и тех, кто просто хочет, чтобы всё было честно. Мы даём инструменты и площадки, где голос каждого учитывается и фиксируется.</p>
+            </div>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">120+</span>
+                <span class="stat-label">наблюдателей в крае</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">8</span>
+                <span class="stat-label">муниципальных округов с пилотами</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">3</span>
+                <span class="stat-label">года работы в регионе</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="program" class="section bg-light">
+        <div class="container">
+          <h2>Наша программа: конкретные шаги</h2>
+          <div class="program-cards">
+            <article class="program-card">
+              <h3>1. Единая цифровая витрина</h3>
+              <p>Создадим региональный портал, где любой житель сможет проверить себя в списках избирателей, подать обращение о нарушении, узнать адрес своего участка и следить за статусом заявки.</p>
+            </article>
+            <article class="program-card">
+              <h3>2. Открытый набор в комиссии</h3>
+              <p>Публичный набор, онлайн-обучение и стажировки: каждый может попробовать себя в работе комиссии, пройти практику и стать наблюдателем. Прозрачность начинается с доступа.</p>
+            </article>
+            <article class="program-card">
+              <h3>3. Прозрачные результаты</h3>
+              <p>Публикация результатов по каждому участку сразу после подписания протокола, привязка к сканам и возможность сверки. Если цифры не сходятся — автоматическая фиксация и проверка.</p>
+            </article>
+            <article class="program-card">
+              <h3>4. Обратная связь и отчёты</h3>
+              <p>Ежемесячные отчёты по исполнению программы, публичные встречи и чат обратной связи с подписью ответственного. Никаких «мы подумаем» — только понятные сроки и результаты.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="values" class="section">
+        <div class="container">
+          <h2>Наши ценности</h2>
+          <ul class="features-list">
+            <li><strong>Прозрачность:</strong> все решения и бюджеты — в открытом доступе.</li>
+            <li><strong>Участие:</strong> каждый может влиять на решения через понятные механизмы.</li>
+            <li><strong>Ответственность:</strong> мы отвечаем за свои обещания и публикуем результаты.</li>
+            <li><strong>Честность:</strong> никаких подмен, манипуляций и «серых зон».</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="join" class="section bg-dark">
+        <div class="container">
+          <h2>Хочешь участвовать?</h2>
+          <p>Выбери, как ты можешь помочь: стать наблюдателем, волонтёром, экспертом или просто подписаться на рассылку и следить за нашими отчётами.</p>
+          <form class="join-form">
+            <input type="text" placeholder="Имя" required />
+            <input type="email" placeholder="Email" required />
+            <select>
+              <option value="observer">Хочу стать наблюдателем</option>
+              <option value="volunteer">Хочу быть волонтёром</option>
+              <option value="expert">Могу быть экспертом</option>
+              <option value="subscribe">Просто подписаться на новости</option>
+            </select>
+            <button type="submit" class="btn-primary">Отправить заявку</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="contacts" class="section bg-dark">
+        <div class="container">
+          <h2>Контакты</h2>
+          <div class="contacts-grid">
+            <div class="contact-item">
+              <strong>Адрес:</strong><br />
+              Хабаровский край, ул. Примерная, д. 1
+            </div>
+            <div class="contact-item">
+              <strong>Телефон:</strong><br />
+              +7 999 999 99 99
+            </div>
+            <div class="contact-item">
+              <strong>Email:</strong><br />
+              anfisaivancik@gmail.com
+            </div>
+            <div class="contact-item">
+              <strong>Режим работы:</strong><br />
+              Пн–Пт, 09:00–18:00
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2024 Партия «Чикен Ган». Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
